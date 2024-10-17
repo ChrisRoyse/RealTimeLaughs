@@ -162,13 +162,13 @@ cd ClipItLive
 - **Start the Flask Server**:
 
   ```bash
-  python clip_server.py
+  python twitchlaughclips.py
   ```
 
 - **Start the Node.js Script** (in a separate terminal):
 
   ```bash
-  node clip_detection.js
+  node bot.js
   ```
 
 ## Usage
