@@ -94,14 +94,7 @@
 
 ### Setup Steps
 
-#### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/ClipItLive.git
-cd ClipItLive
-```
-
-#### 2. Set Up Node.js Script
+#### 1. Set Up Node.js Script
 
 - Navigate to the Node.js script directory:
 
@@ -115,7 +108,7 @@ cd ClipItLive
   npm install
   ```
 
-- Configure Twitch API credentials in `clip_detection.js`:
+- Configure Twitch API credentials in `bot.js`:
 
   ```javascript
   const TWITCH_CLIENT_ID = 'your_twitch_client_id';
@@ -128,7 +121,7 @@ cd ClipItLive
   });
   ```
 
-#### 3. Set Up Python Flask Server
+#### 2. Set Up Python Flask Server
 
 - Navigate to the Flask server directory:
 
@@ -142,7 +135,7 @@ cd ClipItLive
   pip install -r requirements.txt
   ```
 
-- Configure Twitch API credentials in `clip_server.py`:
+- Configure Twitch API credentials in `twitchlaughclips.py`:
 
   ```python
   TWITCH_CLIENT_ID = 'your_twitch_client_id'
@@ -157,7 +150,7 @@ cd ClipItLive
   - `unavailable4000.png`
   - `not_old_enough.png`
 
-#### 4. Run the Applications
+#### 3. Run the Applications
 
 - **Start the Flask Server**:
 
