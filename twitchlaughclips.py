@@ -32,7 +32,7 @@ PERMANENT_ACCESS_TOKEN = 'PERMANENT_ACCESS_TOKEN'
 PERMANENT_REFRESH_TOKEN = 'PERMANENT_REFRESH_TOKEN'
 TOKEN_EXPIRY = datetime.now(timezone.utc) + timedelta(hours=1)  # Assuming token expires in 1 hour
 
-# Load the "not available" and "unavailable 4000" images
+# Load the "not available", "unavailable 4000" and "not_old_enough" images
 not_available_img_path = r"C:\Python39\not_available.png"
 unavailable4000_img_path = r"C:\Python39\unavailable4000.png"
 not_old_enough_img_path = r"C:\Python39\not_old_enough.png"
