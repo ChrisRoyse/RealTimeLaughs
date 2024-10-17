@@ -11,9 +11,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -211,46 +208,3 @@ Once both the Node.js script and the Python Flask server are running:
 - **Analytics Dashboard**:
   - Provide insights into the most clipped channels, categories, and peak times for laughter.
 
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. **Fork the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/ClipItLive.git
-   ```
-
-2. **Create a New Branch**
-
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-
-3. **Make Your Changes**
-
-4. **Commit Your Changes**
-
-   ```bash
-   git commit -m "Add YourFeature"
-   ```
-
-5. **Push to Your Fork**
-
-   ```bash
-   git push origin feature/YourFeature
-   ```
-
-6. **Submit a Pull Request**
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For questions, suggestions, or support, please open an issue or contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-Feel free to customize this description further to suit your project's specifics. Including screenshots, diagrams, or additional usage examples can enhance understanding and usability for others.
