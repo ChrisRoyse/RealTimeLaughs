@@ -1,4 +1,4 @@
-ClipItLive: Real-Time Twitch Laugh Detection and Stream Clipping
+# ClipItLive: Real-Time Twitch Laugh Detection and Stream Clipping
 
 ClipItLive is an innovative tool that captures real-time chat data across Twitch and automatically clips the most recent 20 seconds of a stream whenever someone in the chat laughs. Designed to monitor thousands of live channels simultaneously, ClipItLive detects laughter in chat messages and generates highlights of the funniest moments happening across the Twitch platform. The system queues these clips and plays the most recent highlights, providing an uninterrupted stream of humor across 100,000+ active channels.
 
